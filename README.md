@@ -19,7 +19,7 @@ The plan is simple:
 In other words, Git is how the two players talk to each other:
 
 - The **Guesser** writes a question → `add` → `commit` → `push`.
-- The **Host** does `pull` to see the question, writes the answer →
+- The **Host** does `pull` to see the question, checks yes or no →
   `add` → `commit` → `push`.
 - The **Guesser** does `pull` to see the answer, then writes the next question.
 - Repeat for all 21 questions, then the final guess and the reveal.
@@ -65,6 +65,29 @@ Forking happens **on the GitHub website**, not in the terminal. Click the
 **"Fork"** button in the top-right of this repo's GitHub page. This creates your
 own personal copy of the repository under your account that you can freely edit.
 
+For a game, **only one player needs to fork** — that fork becomes the shared
+board both players push to.
+
+> 📖 GitHub's guide: [Fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+
+### Add the Other Player as a Collaborator
+
+Because both players push to the *same* repository, the fork's owner must invite
+the other player and give them **write access**.
+
+1. On your fork's GitHub page, go to **Settings → Collaborators**
+   (you may be asked to confirm your password).
+2. Click **"Add people"**, search for the other player's GitHub username, and
+   select them.
+3. Choose the **Write** permission level — this lets them push commits but not
+   change repository settings — and send the invitation.
+4. The other player accepts the emailed invite (or the link under their GitHub
+   notifications). Now both of you can clone, push, and pull from this one repo.
+
+> 📖 GitHub's guides:
+> [Inviting collaborators to a personal repository](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
+> · [Repository permission levels](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization)
+
 ### Clone
 
 Download your fork from GitHub to your local machine:
@@ -98,7 +121,7 @@ Save your staged change to your local history with a message describing what you
 just did:
 
 ```bash
-git commit -m "Q3: Is it bigger than a microwave?"
+git commit -m "asked q3"
 ```
 
 ### Push
@@ -122,7 +145,7 @@ cycle. Here's a full exchange for question 3.
 git pull                                          # get the latest file
 # ...edit 21_questions.txt: write your question on line 3...
 git add 21_questions.txt
-git commit -m "Q3: Is it bigger than a microwave?"
+git commit -m "asked q3"
 git push
 ```
 
@@ -176,3 +199,7 @@ and play again!
 This README and the accompanying template were **written by Claude** (an AI
 assistant by Anthropic). The exercise concept is **Jon Chin's** own idea, and
 Jon critically reviews all generated content.
+
+---
+
+## Have Fun and Git Good!
