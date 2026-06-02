@@ -20,7 +20,7 @@ SECRET CATEGORY (host fills in): [ ] Person  [ ] Place  [X] Thing  [ ] Animal
 Write your yes/no question on each line, then check the host's answer.
 
  1. A: [X] Yes  [ ] No   Q: Is this a popular thing? 
- 2. A: [ ] Yes  [ ] No   Q: Is it a living thing?  
+ 2. A: [ ] Yes  [X] No   Q: Is it a living thing?  
  3. A: [ ] Yes  [ ] No   Q: 
  4. A: [ ] Yes  [ ] No   Q: 
  5. A: [ ] Yes  [ ] No   Q: 
