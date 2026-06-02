@@ -2,11 +2,7 @@
         21 QUESTIONS - GAME SHEET
 ==========================================
 
-<<<<<<< HEAD
-PLAYER (the one asking questions): Muhammad Usman | @AbuTalha63 
-=======
-PLAYER (the one asking questions): Muhammad Usman and Prayash Bhattarai| @AbuTalha63 and @CyberAsec1
->>>>>>> 3131c461b446a71d5e04a18319f542d6f68a2546
+PLAYER (the one asking questions): Muhammad Usman and Prayash Bhattarai | @AbuTalha63 and @CyberAsec1
 HOST   (the one with the secret):  Hamza Rana | @Hamza-C0DES
 DATE:                              06-02-2026
 
