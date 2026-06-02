@@ -2,8 +2,8 @@
         21 QUESTIONS - GAME SHEET
 ==========================================
 
-PLAYER (the one asking questions): Hamza Rana | @Hamza-C0DES
-HOST   (the one with the secret):  Muhammad Usman | @AbuTalha63
+PLAYER (the one asking questions): Muhammad Usman | @AbuTalha63
+HOST   (the one with the secret):  Hamza Rana | @Hamza-C0DES
 DATE:                              06-02-2026
 
 
