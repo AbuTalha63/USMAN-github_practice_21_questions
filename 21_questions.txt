@@ -20,11 +20,11 @@ Write your yes/no question on each line, then check the host's answer.
  3. A: [X] Yes  [ ] No   Q: Do people use it everyday?
  4. A: [ ] Yes  [X] No   Q: Is it edible?
  5. A: [ ] Yes  [X] No   Q: Does it have to do with Technology?
- 6. A: [ ] Yes  [ ] No   Q: Do most people own it?
- 7. A: [ ] Yes  [ ] No   Q: Can I write with it?
- 8. A: [ ] Yes  [ ] No   Q: Is there one in this room?
- 9. A: [ ] Yes  [ ] No   Q: Is it expensive?
-10. A: [ ] Yes  [ ] No   Q: Can it be held in hand?
+ 6. A: [X] Yes  [ ] No   Q: Do most people own it?
+ 7. A: [X] Yes  [ ] No   Q: Can I write with it?
+ 8. A: [X] Yes  [ ] No   Q: Is there one in this room?
+ 9. A: [ ] Yes  [X] No   Q: Is it expensive?
+10. A: [X] Yes  [ ] No   Q: Can it be held in hand?
 11. A: [ ] Yes  [ ] No   Q: 
 12. A: [ ] Yes  [ ] No   Q: 
 13. A: [ ] Yes  [ ] No   Q: 
